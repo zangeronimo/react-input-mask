@@ -1,5 +1,4 @@
-import { useCallback, useRef } from "react"
-import { InputHTMLAttributes } from "react"
+import { useCallback, useRef, InputHTMLAttributes } from "react"
 
 type InputProps = InputHTMLAttributes<HTMLInputElement> & {
   name: string;
